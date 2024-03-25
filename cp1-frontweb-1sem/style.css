@@ -1,0 +1,103 @@
+/*importa;áo da fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Silkscreen:wght@400;700&display=swap');
+/*configuracoes iniciais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+/*corpo da pagina*/
+body{
+    width: 100%;
+    font-family: "Lexend Mega", sans-serif;
+    background-color: #1b1b1b;
+}
+/*personalização da barra de navegacao*/
+nav{
+    width: 100%;
+    background-color:#844955;
+    height: 63px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav ul{
+    margin-right: 30px;
+    display: flex;
+    font-size: 12px;
+    text-transform: uppercase;
+    list-style-type: none;
+    
+}
+nav img{
+    height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.margem{
+    margin-right: 20px;
+}
+/*imagem de fundo*/
+.imagem_fundo{
+    width: 100%; 
+}
+nav ul li a{
+    text-decoration:none;
+    color: #f2f2f2;
+    padding: 23px 10px;
+}
+nav ul li a:hover{
+    background-color: #722d2d;
+}
+.vinhos{
+    width: 260px;
+    height: 420px;
+    background-color:#F2F2F2;
+    margin: 0 40px;
+    border-radius: 25px;
+    box-shadow: 0px -3px 3px 0px rgba(0,0,0,0.51) inset;
+    -webkit-box-shadow: 0px -3px 3px 0px rgba(0,0,0,0.51) inset;
+    -moz-box-shadow: 0px -3px 3px 0px rgba(0,0,0,0.51) inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+section{
+    margin-top:10%;
+}
+.vendidos{
+    color:#F2F2F2;
+    margin-left: 6%;
+    font-size: 20px;
+}
+.linha{
+    width: 248px;
+    height:1px;
+    background-color: #F2F2F2;
+    margin-left: 6%;
+}
+footer{
+    font-size: 15px;
+    color:#B1A8A8;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 100;
+}
+.vinhos img{
+    width: 66px;
+    height: auto;
+}
+.nome{
+    margin-top: 15px;
+    font-size: 14px;
+    weight: 400;
+    
+}
+
+
