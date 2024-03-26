@@ -37,18 +37,19 @@ nav img{
 .margem{
     margin-right: 20px;
 }
-/*imagem de fundo*/
-.imagem_fundo{
-    width: 100%; 
+nav ul li a:hover{
+    background-color: #93525f;
 }
 nav ul li a{
     text-decoration:none;
     color: #f2f2f2;
     padding: 23px 10px;
 }
-nav ul li a:hover{
-    background-color: #722d2d;
+/*imagem de fundo*/
+.imagem_fundo{
+    width: 100%; 
 }
+/*caixas brancas/personalização das divs*/
 .vinhos{
     width: 260px;
     height: 420px;
@@ -62,26 +63,32 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
+/*conjunto das divs*/
 .container{
     display: flex;
     justify-content: center;
     margin-top: 5%;
 }
+/*espaçamento entre a imagem de fundo e o titulo "mais vendidos"*/
 section{
     margin-top:10%;
 }
+/*h1 mais vendidos*/
 .vendidos{
     color:#F2F2F2;
     margin-left: 6%;
     font-size: 20px;
 }
+/*linha embaixo do mais vendidos*/
 .linha{
     width: 248px;
     height:1px;
     background-color: #F2F2F2;
     margin-left: 6%;
 }
+/*rodapé da página*/
 footer{
     font-size: 15px;
     color:#B1A8A8;
@@ -89,14 +96,50 @@ footer{
     margin-top: 10%;
     font-weight: 100;
 }
+/*imagem dos vinhos*/
 .vinhos img{
     width: 66px;
     height: auto;
+    padding-right: 35px;
 }
+/*nome de cada vinho*/
 .nome{
     margin-top: 15px;
     font-size: 14px;
     weight: 400;
+    
+}
+/*preço com desconto*/
+.desconto{
+    font-size: 18px;
+    width: 55%;
+    color: #0DA955;
+}
+/*preço original*/
+.preco{
+    font-size: 9px;
+    width: 30%;
+    padding-top: 4%;
+    text-decoration:line-through;
+    color: #1B1B1B;
+}
+/*div dos preços*/
+.flex{
+    display: flex;
+    margin-top: 10%;
+    
+}
+/*imagem da porcentagem de desconto*/
+.tag-desconto{
+    padding-bottom: 85%;
+   
+}
+/*div contendo a imagem do vinho e a de desconto*/
+.imagens{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 50%;
+    
     
 }
 
