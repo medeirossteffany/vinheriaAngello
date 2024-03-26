@@ -1,8 +1,8 @@
 # vinheriaAngello
 
-
-
-Milena Garcia RM 555111
-Steffany Medeiros RM 556262
-Gustavo Henrique RM 556998
-Vinicius Henrique RM 556712
+RM   | Nome
+------- | ------
+555111 | Milena Garcia
+556262 | Steffany Medeiros
+556998 | Gustavo Henrique
+556712 | Vinicius Henrique
