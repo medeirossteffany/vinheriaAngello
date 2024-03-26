@@ -44,6 +44,7 @@ nav ul li a{
     text-decoration:none;
     color: #f2f2f2;
     padding: 23px 10px;
+    transition-duration: 0.3s;
 }
 /*imagem de fundo*/
 .imagem_fundo{
@@ -63,7 +64,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+    transition-duration: 0.3s;
 }
 /*conjunto das divs*/
 .container{
@@ -107,17 +108,18 @@ footer{
     margin-top: 15px;
     font-size: 14px;
     weight: 400;
-    
+    width: 215px;
+    height:20px;
 }
 /*preço com desconto*/
 .desconto{
     font-size: 18px;
-    width: 55%;
+    width: 48%;
     color: #0DA955;
 }
 /*preço original*/
 .preco{
-    font-size: 9px;
+    font-size: 11px;
     width: 30%;
     padding-top: 4%;
     text-decoration:line-through;
@@ -139,8 +141,18 @@ footer{
     display: flex;
     flex-direction: row-reverse;
     padding-left: 50%;
-    
-    
 }
+/*hover dos vinhos*/
+.vinhos:hover{
+    background-color: #8a6266;
+    width: 270px;
+    height: 430px;
+}
+/*estilização do link dos vinhos*/
+.container a{
+    text-decoration: none;
+    color:#1B1B1B;
+}
+
 
 
