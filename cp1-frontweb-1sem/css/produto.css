@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Silkscreen:wght@400;700&display=swap');
+/*configuracoes iniciais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+/*corpo da pagina*/
+body{
+    width: 100%;
+    font-family: "Lexend Mega", sans-serif;
+    background-color: #1b1b1b;
+}
+/*personalização da barra de navegacao*/
+nav{
+    width: 100%;
+    background-color:#844955;
+    height: 63px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav ul{
+    margin-right: 30px;
+    display: flex;
+    font-size: 12px;
+    text-transform: uppercase;
+    list-style-type: none;
+    
+}
+nav img{
+    height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.margem{
+    margin-right: 20px;
+}
+/*imagem de fundo*/
+.imagem_fundo{
+    width: 100%; 
+}
+nav ul li a{
+    text-decoration:none;
+    color: #f2f2f2;
+    padding: 23px 10px;
+}
+nav ul li a:hover{
+    background-color: #722d2d;
+}
+
+h1 {
+    font-family: Lexend Mega;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #F2F2F2;  
+}
+
+fieldset {
+    width: 429px;
+    border-radius: 10px; 
+    border: 2px solid #ccc; 
+    padding: 20px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid rgba(132, 73, 85, 1);
+    opacity: 0px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+legend{
+    color: #844955;
+}
+
+.img_vinho {
+    height:500px ;
+
+}
+
+.produto_container,.nome_vinho{
+    display: flex;
+    flex-direction: row;
+}   
+
+.nome_vinho {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-right: 17px;
+}
+
+.confira_link a{
+    color: #8f8d8d;
+    font-size: 12px;
+}
+
+.comprar_container {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    padding: 0px 50px;
+}
+
+.desc_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.preco_antigo{
+    font-size: 15px;
+    color: gray;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+.preco_novo {
+    font-size: 25px;
+    color: #0DA955;
+    margin-bottom: 20px;
+    
+}
+
+.precos{
+    justify-content: left;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    background-color: #642A36;
+    color: #F2F2F2 ;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 5px 25px;
+}
+
+section {
+    width: 100%;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.caracteristicas {
+    width: 1100px;
+    
+
+}
+
+.center {
+    width: 100%;
+    align-items: center;
+    margin-top: 70px;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+footer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    color: #B1A8A8;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1rf 1rf 1rf;
+    gap: 0px 0px;
+    grid-template-areas: ". . ." ". . ." ". . ." ;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.item_grid {
+    display: flex;
+    margin: 12px 0;
+
+}
+
+.item_grid img {
+margin-right: 10px;
+height: 40px;
+}
+
+.button_add {
+    background-color: #F2F2F2;
+    display: flex;
+    width: 89px;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 5px 25px;
+    margin-bottom: 15px;
+}
+
